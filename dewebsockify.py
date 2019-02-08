@@ -7,7 +7,7 @@ import errno
 
 print sys.argv
 if(len(sys.argv) != 3):
-    print("Usage: dewebsockify ws://someserver/path <port>")
+    print("Usage: python dewebsockify.py ws://someserver/path <port>")
     exit(1)
 
 port = sys.argv[2]
